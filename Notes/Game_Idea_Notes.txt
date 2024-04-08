@@ -1,0 +1,2 @@
+Overview:
+Our game will be a 2D top-down stealth game where the user controls a character that must navigate a level, avoiding enemies (AI) and obstacles to reach a goal (win state). 
