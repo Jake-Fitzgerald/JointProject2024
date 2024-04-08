@@ -1,2 +1,13 @@
 Overview:
-Our game will be a 2D top-down stealth game where the user controls a character that must navigate a level, avoiding enemies (AI) and obstacles to reach a goal (win state). 
+Our game will be a 2D top-down stealth game where the user controls a character that must navigate a level, avoiding NPC enemies (AI) and obstacles to reach a goal (win state). 
+
+Gameplay:
+The playable character's movement is controlled using the W, A, S, D keys on the keyboard. When the user presses a specific key, the character will then move a small distance on the screen on the corresponding axis to that key (Example: W key will move the player positive 10 units on the Y-axis).
+
+The NPC enemy's movement is on a set path between points in the level, these are called Patrol Points. Attatched to the NPC enemy is a 'Vision Cone', this is used as a collision shape that will detect the player based on the player character colliding with said Vision Cone. When this happens then the game state will be set to 'Lose' and will then load the 'Game Over' screen.
+
+Art:
+Basic sprites will be used for each entity in the game (Player, Enemy, Obstacle, Level Tiles, UI, etc). Both the player and NPC enemy will use a sprite sheet to show the different states they can be in while playing (Moving, alerted, idle, death, etc).
+
+Level Editor:
+Using the mouse the user can click on different entities to place or remove them from the game space. Using the keypad the user can select from different entities to place in the game space (Player, Enemy, Obstacle, Level Tiles, UI, etc).

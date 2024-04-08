@@ -1,0 +1,9 @@
+Story:
+As a player I want to 'know I have alerted a NPC enemy' so that I can 'avoid detection and not lose the game'
+
+Acceptance Criteria:
+NPC enemy's Vision Cone is visually displayed in the game space clearly.
+NPC enemy's Vision Cone's colour changes from green to red.
+When detected a sound cue plays to inform the player.
+When detected both the player's sprite and NPC enemy's sprite changes to reflect it.
+After detection the game is set to a 'Lose' state.

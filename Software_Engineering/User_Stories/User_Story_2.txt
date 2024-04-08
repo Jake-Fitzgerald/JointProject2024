@@ -1,0 +1,9 @@
+Story:
+As a player I want to 'use the level editor' so that I can 'modify the level to alter the difficulty'.
+
+Acceptance Criteria:
+Level Editor Mode activated when specific key is pressed.
+Level Editor's UI is intuitive and clear to understand.
+Selecting an entity from the menu visually corresponds to the entity being placed.
+The different actions/buttons create informative feedback through sound cues (Success/Failure).
+Level Editor Mode is deactivated when specific key is pressed.
